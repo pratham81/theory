@@ -1,0 +1,58 @@
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ echo Hello
+Hello
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ ls
+ 7                                       'OS '
+ Ad_Book.sh                               Pictures
+ a.sh                                    'PSDL Lab Manual RNM.pdf'
+ avcoe                                    Public
+ copyfile                                 sh
+ demo                                     smjupiter.ipynb
+ demo.c                                   snap
+ Desktop                                  Syllabus-teit.pdf
+ Documents                                Templates
+ Downloads                                test
+ eclipse-workspace                        Untitled1.ipynb
+ google-chrome-stable_current_amd64.deb   Untitled2.ipynb
+'Jadhav Shruti'                           Untitled3.ipynb
+ jupyter_dir                              Untitled.ipynb
+ mahesh.c                                 vaibhav.ipynb
+ MPLABXProjects                           vat
+ Music                                    vat.text
+ my_project_dir                           Videos
+ Nptel
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ read
+Hello
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ echo $REPLY
+Hello
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ a=10
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ b=30
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ expr $a + $b
+40
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ expr $a \* $b
+300
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ cat demo.c
+#include<stdio.h>
+void main()
+{
+printf("AVCOE");
+}
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ cat -b demo.c
+     1	#include<stdio.h>
+     2	void main()
+     3	{
+     4	printf("AVCOE");
+     5	}
+     
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ touch D
+
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ test 100 -lt 120 && echo "True" || echo "False"
+True
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ 
+
+

@@ -1,0 +1,125 @@
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ sh addbook.sh
+addbook.sh: 1: //: Permission denied
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+1
+Enter filename
+priyanka.txt
+
+Enter Name
+sakshi
+Enter Phone Number of sakshi
+1232134455 
+Enter Address of sakshi
+sangamner
+Enter 0 to Stop, 1 to Enter next
+0
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+2
+NAME	NUMBER		ADDRESS
+===============================
+
+sakshi	1232134455		sangamner
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+3
+
+Enter Name
+akshita           
+Enter Phone Number of akshita
+1232137766
+Enter Address of akshita
+nashik
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+2
+NAME	NUMBER		ADDRESS
+===============================
+
+sakshi	1232134455		sangamner
+akshita	1232137766		nashik
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+4
+Delete record
+Enter Name/Phone Number
+sakshi
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+2
+NAME	NUMBER		ADDRESS
+===============================
+
+akshita	1232137766		nashik
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+5
+Modify record
+Enter Name/Phone Number
+priyanka
+Enter Name
+priya
+Enter Phone Number of priya
+1232138899
+Enter Address of priya
+pune
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+2
+NAME	NUMBER		ADDRESS
+===============================
+
+akshita	1232137766		nashik
+-e priya	1232138899	pune
+-e Choose one of the Following
+1. Create a New Address Book
+2. View Records
+3. Insert new Record
+4. Delete a Record
+5. Modify a Record
+6. Exit
+6
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ 
+
+
